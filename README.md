@@ -32,7 +32,6 @@ The management of changes to documents, computer programs, large websites, and o
 * ```ls -la```    &rarr; Check list of files
 
 ## Set up
-
 - မိမိ computer ထဲတွင် git သွင်းထားရမည်။
 - Visual Studio Code သည် github နှင့်တွဲဖက်သုံး၍ရသည်။
 - VSC တွင် folder တစ်ခုတည်ဆောက်ပြီး “git clone [link]” လုပ်ပါ။
@@ -43,7 +42,6 @@ The management of changes to documents, computer programs, large websites, and o
 - “git commit -m “message” -m “description”” command ဖြင့် local မှာ save မည်။
 
 ## SSH Keys
-
 - github account owner ဖြစ်ကြောင်းသက်သေပြဖို့ရန်အတွက် key ထုတ်ပြီးသိမ်းထားရပါမည်။
 - ```ssh-keygen -t rsa -b 4096 -C “htetaunglynn94@gmail.com”``` ဖြင့် key generate လုပ်ပါ။
 - ```ls | grep keygen``` ဖြင့် key ကိုပြန်ရှာလို့ရပါသည်။
@@ -55,16 +53,16 @@ The management of changes to documents, computer programs, large websites, and o
 - ```ssh-add ~/.ssh/keygen``` command ဖြင့် key ကို add ပေးပါ။
 
 ## Git push
-
 - ```git push origin main``` ဖြင့် upload လုပ်နိုင်သည်။
+- ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။
+![Git workflow and Local Git](local git and workflow.png)
 
 ## Git init
-
 - ```git init``` command ဖြင့် repo တစ်ခုကို add ပေးခြင်းဖြစ်သည်။
 
 ## Git remote
-
 - Local ထဲမှာ file တစ်ခု create လုပ်ပြီးရင် remote ကမသိသေးတဲ့အတွက် link add ပေးရပါမယ်။
 
+## Change branch from master to main
+- ```git branch -m master main``` master မှ main သို့ပြန်ပြောင်းရာတွင်အသုံးပြုသည်။
 
-git branch -m master main
