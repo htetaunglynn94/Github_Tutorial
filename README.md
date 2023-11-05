@@ -54,7 +54,7 @@ The management of changes to documents, computer programs, large websites, and o
 
 ## Git push
 - ```git push origin main``` ဖြင့် upload လုပ်နိုင်သည်။
-- ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။
+- ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။ (-u means --set-upstream)
 
 ![Git workflow and Local Git](local_git_and_workflow.png)
 
@@ -63,8 +63,18 @@ The management of changes to documents, computer programs, large websites, and o
 
 ## Git remote
 - Local ထဲမှာ file တစ်ခု create လုပ်ပြီးရင် remote ကမသိသေးတဲ့အတွက် link add ပေးရပါမယ်။
+- ```git remote add origin <link>``` command ကိုသုံးပါတယ်။
 
 ## Change branch from master to main
 - ```git branch -m master main``` master မှ main သို့ပြန်ပြောင်းရာတွင်အသုံးပြုသည်။
 
+## Git Branching
+- ```git branch``` to check number of branches and * means current branch
+- ```git checkout -b feature-readme-instruction``` create a new branch
+- ```git checkout main``` change main branch
+- ```git diff feature-readme-instructions``` compare two versions of code to check what is difference
+
+![Git branching](git_branching.png)
+
 This one is for feature
+
