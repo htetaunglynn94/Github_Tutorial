@@ -1,5 +1,5 @@
 # Github Tutorial
-link: ![Git and Github for Begineer] (https://www.youtube.com/watch?v=RGOj5yH7evk&t=1727s)
+link: [Git and Github for Begineer](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1727s)
 
 ## What is Git?
 Free and open source ==version control== system.
