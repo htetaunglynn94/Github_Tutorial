@@ -68,5 +68,8 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git branch -m master main``` master မှ main သို့ပြန်ပြောင်းရာတွင်အသုံးပြုသည်။
 
 ## Git Branching
+- ```git branch``` to check number of branches and * means current branch
+- ```git checkout -b feature-readme-instruction``` create a new branch
+- ```git checkout main``` change main branch
 - 
 ![Git Branching](git_branching.png)
