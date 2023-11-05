@@ -1,10 +1,13 @@
-# Github_Tutorial
-Github tutorial
-This is the first tutorial file.
+# Github Tutorial
+link: [Git and Github for Begineer] (https://www.youtube.com/watch?v=RGOj5yH7evk&t=1727s)
 
-## Subheader
-Watch tutorial on **Youtube**
+## What is Git?
+Free and open source <span sytle="color: oragne;">version control </span> system.
 
-1. step 1
-2. step 2
-3. step 3
+## What is Version Control?
+The management of changes to documents, computer programs, large websites, and other collections of information.
+
+# Term
+**Directory** '&rarr' <span sytle="color: oragne;">Folder</span>
+**Directory** '&rarr' <span sytle="color: oragne;">Folder</span>
+
