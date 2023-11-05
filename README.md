@@ -72,4 +72,4 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git checkout -b feature-readme-instruction``` create a new branch
 - ```git checkout main``` change main branch
 - 
-![Git Branching](git_branching.png)
+![Git branching](git_branching.png)
