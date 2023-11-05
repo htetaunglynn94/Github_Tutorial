@@ -20,6 +20,6 @@ The management of changes to documents, computer programs, large websites, and o
 
 **Repository** &rarr; <code style="color:greenyellow">Project, or the folder/place where your projecct is kept</code>
 
-**Github** &rarr; <code style="color:greenyellow">A website to host your repositories online</code>
+**Github** &rarr; <code style="color : greenyellow">A website to host your repositories online</code>
 
 git branch -m master main
