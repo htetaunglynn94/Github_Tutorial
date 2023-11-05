@@ -31,6 +31,7 @@ The management of changes to documents, computer programs, large websites, and o
 * ```git pull```    &rarr; Download changes from remote repo to your local machine, the opposite of push
 * ```ls -la```    &rarr; Check list of files
 
+
 ## Set up
 - မိမိ computer ထဲတွင် git သွင်းထားရမည်။
 - Visual Studio Code သည် github နှင့်တွဲဖက်သုံး၍ရသည်။
@@ -40,6 +41,7 @@ The management of changes to documents, computer programs, large websites, and o
 - “git status” command ဖြင့် လက်ရှိ file တွေရဲ့ status ကိုကြည့်နိုင်သည်။
 - local မှာ file တစ် file ချင်းဆိ add ချင်ပါက “git add [file name]” ကိုသုံးပြီး file အားလုံးကို add ချင်ပါက “git add .” ကိုသုံးသည်။
 - “git commit -m “message” -m “description”” command ဖြင့် local မှာ save မည်။
+
 
 ## SSH Keys
 - github account owner ဖြစ်ကြောင်းသက်သေပြဖို့ရန်အတွက် key ထုတ်ပြီးသိမ်းထားရပါမည်။
@@ -52,21 +54,26 @@ The management of changes to documents, computer programs, large websites, and o
 - ````eval "$(ssh-agent -s)"```` command ဖြင့် agent pid ရယူပါ။
 - ```ssh-add ~/.ssh/keygen``` command ဖြင့် key ကို add ပေးပါ။
 
+
 ## Git push
 - ```git push origin main``` ဖြင့် upload လုပ်နိုင်သည်။
 - ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။ (-u means --set-upstream)
 
 ![Git workflow and Local Git](local_git_and_workflow.png)
 
+
 ## Git init
 - ```git init``` command ဖြင့် repo တစ်ခုကို add ပေးခြင်းဖြစ်သည်။
+
 
 ## Git remote
 - Local ထဲမှာ file တစ်ခု create လုပ်ပြီးရင် remote ကမသိသေးတဲ့အတွက် link add ပေးရပါမယ်။
 - ```git remote add origin <link>``` command ကိုသုံးပါတယ်။
 
+
 ## Change branch from master to main
 - ```git branch -m master main``` master မှ main သို့ပြန်ပြောင်းရာတွင်အသုံးပြုသည်။
+
 
 ## Git Branching
 - ```git branch``` to check number of branches and * means current branch
