@@ -1,5 +1,5 @@
 # Github Tutorial
-link: [Git and Github for Begineer] (https://www.youtube.com/watch?v=RGOj5yH7evk&t=1727s)
+link: ![Git and Github for Begineer] (https://www.youtube.com/watch?v=RGOj5yH7evk&t=1727s)
 
 ## What is Git?
 Free and open source ==version control== system.
@@ -73,8 +73,10 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git checkout -b feature-readme-instruction``` create a new branch
 - ```git checkout main``` change main branch
 - ```git diff feature-readme-instructions``` compare two versions of code to check what is difference
+- ```git branch -d feature-readme-instructions``` to delete unnecessary branch
+- ``````
 
 ![Git branching](git_branching.png)
 
-This one is for feature
+
 
