@@ -55,7 +55,8 @@ The management of changes to documents, computer programs, large websites, and o
 ## Git push
 - ```git push origin main``` ဖြင့် upload လုပ်နိုင်သည်။
 - ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။
-![Git workflow and Local Git](local git and workflow.png)
+
+![Git workflow and Local Git](local_git_and_workflow.png)
 
 ## Git init
 - ```git init``` command ဖြင့် repo တစ်ခုကို add ပေးခြင်းဖြစ်သည်။
