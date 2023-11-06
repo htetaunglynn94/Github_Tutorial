@@ -88,5 +88,6 @@ The management of changes to documents, computer programs, large websites, and o
 
 ![Git branching](git_branching.png)
 
-Hello...
+## Forking in Git
+- Complete copy of a repository from other person
 
