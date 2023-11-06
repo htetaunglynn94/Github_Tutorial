@@ -81,9 +81,12 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git checkout main``` change main branch
 - ```git diff feature-readme-instructions``` compare two versions of code to check what is difference
 - ```git branch -d feature-readme-instructions``` to delete unnecessary branch
-- ``````
+- ```git reset HEAD~1``` undo to the last 1 state
+- ```git log``` check git logs
+- ```git reset <commit code from log>``` changed back to unstated changes
+- ```git reset --hard <commit code from log permanently>``` permanently delete the commit history
 
 ![Git branching](git_branching.png)
 
-
+Hello...
 
