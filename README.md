@@ -69,7 +69,8 @@ The management of changes to documents, computer programs, large websites, and o
 
 ## Git remote
 - Local ထဲမှာ file တစ်ခု create လုပ်ပြီးရင် remote ကမသိသေးတဲ့အတွက် link add ပေးရပါမယ်။
-- ```git remote add origin <link>``` command ကိုသုံးပါတယ်။
+- `git remote add origin <link>` command ကိုသုံးပါတယ်။
+- `git remote set-url origin git@github.com:htetaunglynn94/coursera.git` က repo တစ်ခုကို origin သတ်မှတ်တာ။
 
 
 ## Change branch from master to main
