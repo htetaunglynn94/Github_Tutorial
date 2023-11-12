@@ -38,9 +38,9 @@ The management of changes to documents, computer programs, large websites, and o
 - VSC တွင် folder တစ်ခုတည်ဆောက်ပြီး “git clone [link]” လုပ်ပါ။
 - ထိုအခါ remote github repository သည် local သို့ hidden file များအပါအဝင်ရောက်လာမည်ဖြစ်သည်။
 - Hidden file များကိုကြည့်လိုပါက “la” or “ls -a” or “ls -la” ဖြင့်ကြည့်နိုင်သည်။
-- “git status” command ဖြင့် လက်ရှိ file တွေရဲ့ status ကိုကြည့်နိုင်သည်။
-- local မှာ file တစ် file ချင်းဆိ add ချင်ပါက “git add [file name]” ကိုသုံးပြီး file အားလုံးကို add ချင်ပါက “git add .” ကိုသုံးသည်။
-- “git commit -m “message” -m “description”” command ဖြင့် local မှာ save မည်။
+- `git status` command ဖြင့် လက်ရှိ file တွေရဲ့ status ကိုကြည့်နိုင်သည်။
+- local မှာ file တစ် file ချင်းဆိ add ချင်ပါက `git add [file name]` ကိုသုံးပြီး file အားလုံးကို add ချင်ပါက `git add .`` ကိုသုံးသည်။
+- `git commit -m “message” -m “description”` command ဖြင့် local မှာ save မည်။
 
 
 ## SSH Keys
@@ -58,6 +58,7 @@ The management of changes to documents, computer programs, large websites, and o
 ## Git push
 - ```git push origin main``` ဖြင့် upload လုပ်နိုင်သည်။
 - ```git push -u origin main``` လုပ်ထားခြင်းဖြင့် ခနခန branch ကိုရွေးချယ်စရာမလိုတော့ပဲ ```git push``` ဖြင့်သာလုပ်နိုင်ပါသည်။ (-u means --set-upstream)
+- `git commit -am "message"` command ဖြင့် တစ်ခါတည်း add and commit လုပ်နိုင်သည်။ create လုပ်ပြီးသား file တွေအတွက်သာရပါမည်။
 
 ![Git workflow and Local Git](local_git_and_workflow.png)
 
@@ -84,6 +85,11 @@ The management of changes to documents, computer programs, large websites, and o
 - ``````
 
 ![Git branching](git_branching.png)
+
+## Taking Personal Access Token
+- Github မှာ password authorize လုပ်တဲ့စနစ်ကိုဖယ်ရှားထားတဲ့အတွက် Personal Access Token နဲ့သာဝင်လို့ရပါတယ်။
+- GitHub Setting/Developer settings/Tokens (classic)ကနေရယူပြီး code ကိုသိမ်းထားပါ။
+- `git push` လုပ်တဲ့အခါ ၎င်း code ကို password နေရာမှာထည့်ပေးပါ။
 
 
 
