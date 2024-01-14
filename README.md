@@ -53,6 +53,8 @@ The management of changes to documents, computer programs, large websites, and o
 - ၎င်း key အား copy လုပ်ပြီး github က SSH and GPG keys ထဲမှာသွား add ပေးရမည်။
 - ````eval "$(ssh-agent -s)"```` command ဖြင့် agent pid ရယူပါ။
 - ```ssh-add ~/.ssh/keygen``` command ဖြင့် key ကို add ပေးပါ။
+- တကယ်လို့ private file က too open ဖြစ်နေတယ်လို့ပြောရင် မ add ခင် ```chmod 600 ~/.ssh/keygen``` နဲ့ အရင် mode change ပေးပါ။
+
 
 
 ## Git push
