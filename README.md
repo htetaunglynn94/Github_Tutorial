@@ -84,8 +84,10 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git checkout -b feature-readme-instruction``` create a new branch
 - ```git push origin feature-readme-instruction``` push new branch to GitHub
 - ```git checkout main``` change main branch
-- ```git diff feature-readme-instructions``` compare two versions of code to check what is difference
-- ```git branch -d feature-readme-instructions``` to delete unnecessary branch
+- ```git diff feature-readme-instruction``` compare two versions of code to check what is difference
+- ```git branch -d feature-readme-instruction``` to delete unnecessary branch locally
+- ```git branch -D feature-readme-instruction``` to delete unmerged branch (force delete)
+- ```git push origin --delete feature-readme-instruction``` delete remote branch
 
 ## Git Logging
 - ```git reset HEAD~1``` undo to the last 1 state
