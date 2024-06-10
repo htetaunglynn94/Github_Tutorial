@@ -30,7 +30,7 @@ The management of changes to documents, computer programs, large websites, and o
 * ```git push```    &rarr; Upload Git commits to a remote repo, like Github
 * ```git pull```    &rarr; Download changes from remote repo to your local machine, the opposite of push
 * ```ls -la```    &rarr; Check list of files
-* ```git revert HEAD --no-edit``` to undo changes before commit using `HEAD`.
+* ```git revert HEAD --no-edit``` to undo changes before commit using `HEAD`.  
 Note: If you don't specify the `--no-edit` flag, you may be presented with an editor screen showing the message with changes to be reverted. In that case, press the Control (or `Ctrl`) key simultaneously with `X`. 
 
 
