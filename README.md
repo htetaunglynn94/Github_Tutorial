@@ -82,6 +82,7 @@ The management of changes to documents, computer programs, large websites, and o
 ## Git Branching
 - ```git branch``` to check number of branches and * means current branch
 - ```git checkout -b feature-readme-instruction``` create a new branch
+- ```git push origin feature-readme-instruction``` push new branch to GitHub
 - ```git checkout main``` change main branch
 - ```git diff feature-readme-instructions``` compare two versions of code to check what is difference
 - ```git branch -d feature-readme-instructions``` to delete unnecessary branch
