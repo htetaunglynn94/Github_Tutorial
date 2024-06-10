@@ -88,6 +88,9 @@ The management of changes to documents, computer programs, large websites, and o
 - ```git branch -d feature-readme-instruction``` to delete unnecessary branch locally
 - ```git branch -D feature-readme-instruction``` to delete unmerged branch (force delete)
 - ```git push origin --delete feature-readme-instruction``` delete remote branch
+- ```git push origin child``` push file to specific branch
+- ```gh pr create --base main --head child --title "Pull request" --body "added child.py to main branch"``` merge push request from child to main branch
+- ```gh pr merge child``` merge and delete branch
 
 ## Git Logging
 - ```git reset HEAD~1``` undo to the last 1 state
